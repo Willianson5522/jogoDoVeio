@@ -10,7 +10,8 @@ const placeMark = (cell, classToAdd) => {
 const swapTurns = () => {
     isCircleTurn = !isCircleTurn;
 
-    
+    board.classList.remove("circle");
+    board.classList.remove("x");
 
     if (isCircleTurn) {
         board.classList.add("circle");
