@@ -77,7 +77,6 @@ body {
 
 
 .msgVitoria {
-    display: flex;
     display: none;
     position: fixed;
     top: 0;
@@ -162,4 +161,9 @@ body {
 .cell.circle::after,
 .board.circle .cell:not(.x):not(.circle):hover::after {
     transform: rotate(-45deg);
+}
+
+
+.show-msgVitoria {
+    display: flex;
 }
