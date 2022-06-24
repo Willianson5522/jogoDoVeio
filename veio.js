@@ -1,5 +1,5 @@
 const cellElements = document.querySelectorAll("[data-cell]");
-const board = document.querySelectorAll("[data-board]");
+const board = document.querySelector("[data-board]");
 
 let isCircleTurn = false;
 
